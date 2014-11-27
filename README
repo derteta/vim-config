@@ -1,0 +1,21 @@
+Contents
+
+  My personal vim configuration. The following plugins are included (as submodules):
+  - Command-T - https://github.com/vim-scripts/Command-T
+  - Fugitive - https://github.com/tpope/vim-fugitive
+  - pyflakes - https://github.com/vim-scripts/pyflakes.vim
+  - fswitch - https://github.com/vim-scripts/FSwitch
+
+
+Installation
+  
+  To clone the repository, execute the following commands:
+
+    mkdir ~/.vim
+    git clone https://github.com/derteta/vim-config.git ~/.vim
+    cd ~/.vim
+    git submodule update --init --recursive
+
+  Now call the setup script to integrate the configuration in your environment:
+
+    ./setup.sh

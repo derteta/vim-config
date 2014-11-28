@@ -56,6 +56,7 @@ nmap <leader><RIGHT> :diffget //3<CR> :diffup<CR>
 nmap <leader><DOWN> ]c
 nmap <leader><UP> [c
 nmap <leader>. @:
+nmap <leader>/ :nohlsearch<CR>
 nmap <leader>r :\.,\.+$v:count1
 nmap <leader><S-r> :'<,'>s/
 

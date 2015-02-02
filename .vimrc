@@ -17,6 +17,7 @@ set cino=(0
 
 
 " Files and paths
+set noswapfile
 silent! call pathogen#runtime_append_all_bundles()
 silent! call pathogen#helptags()
 syntax on

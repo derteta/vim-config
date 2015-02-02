@@ -43,7 +43,7 @@ set listchars=tab:>-,trail:#,eol:$
 
 
 " Shell
-set shell=bash
+set shell=bash\ -i
 
 
 " Custom mappings

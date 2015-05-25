@@ -5,6 +5,7 @@ Contents
   - Fugitive - https://github.com/tpope/vim-fugitive
   - pyflakes - https://github.com/vim-scripts/pyflakes.vim
   - fswitch - https://github.com/vim-scripts/FSwitch
+  - vim-project - https://github.com/amiorin/vim-project
 
 
 Installation

@@ -61,7 +61,8 @@ nmap <leader>/ :nohlsearch<CR>
 nmap <leader>r :\.,\.+$v:count1
 nmap <leader><S-r> :'<,'>s/
 
-nmap <leader>0 :e ~/.vim/init/<CR> :vsplit ~/.vimrc<CR>
+Project '~/.vim/', 'vim-config'
+File '~/.vim/.vimrc', 'vimrc'
  
 runtime! init/**.vim
 

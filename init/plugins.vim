@@ -1,5 +1,7 @@
 " Plugin settings
 
+let g:CommandTMaxFiles=100000
+let g:CommandTMaxCachedDirectories=0
 set rtp+=~/.vim/bundle/vim-project/
 
 nmap <leader><S-t> :CommandTBuffer<CR>

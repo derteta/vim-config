@@ -61,7 +61,9 @@ nmap <leader>/ :nohlsearch<CR>
 nmap <leader>r :\.,\.+$v:count1
 nmap <leader><S-r> :'<,'>s/
 
-Project '~/.vim/', 'vim-config'
+set rtp+=~/.vim/bundle/vim-project/
+call project#rc("~/")
+
 File '~/.vim/.vimrc', 'vimrc'
  
 runtime! init/**.vim

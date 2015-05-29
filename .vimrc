@@ -1,7 +1,9 @@
 " Appearance
 colorscheme desert256
+highlight cursorline guibg=#111111
 set nocompatible
-set nu
+set rnu
+set cursorline
 set ruler
 set visualbell
 

@@ -3,6 +3,7 @@ colorscheme desert256
 highlight cursorline guibg=#111111
 set nocompatible
 set rnu
+set nu
 set cursorline
 set ruler
 set visualbell

@@ -17,3 +17,6 @@
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
 	url = https://github.com/amiorin/vim-project.git
+[submodule "bundle/lightline.vim"]
+	path = bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git

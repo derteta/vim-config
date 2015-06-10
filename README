@@ -6,6 +6,7 @@ Contents
   - pyflakes - https://github.com/vim-scripts/pyflakes.vim
   - fswitch - https://github.com/vim-scripts/FSwitch
   - vim-project - https://github.com/amiorin/vim-project
+  - lightline - https://github.com/itchyny/lightline.vim
 
 
 Installation

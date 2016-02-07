@@ -16,6 +16,10 @@ let g:lightline = {
       \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename', 'modified'] ],
       \   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'] ]
       \ },
+      \ 'inactive': {
+      \   'left': [ [ 'filename', 'modified'] ],
+      \   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'] ]
+      \ },
       \ 'component': {
       \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
       \ },

@@ -29,6 +29,7 @@ filetype plugin on
 filetype indent on
 let filetype_m='objc'
 set tags=tags;/
+set wildignore=*.swp,*.bak,*.pyc
 au! BufEnter *.py setlocal tabstop=4 shiftwidth=4 makeprg=nosetests\ %
 au! BufEnter *.rb setlocal tabstop=4 shiftwidth=4 makeprg=ruby\ %
 au! FileType python setlocal omnifunc=pythoncomplete#Complete

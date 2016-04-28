@@ -79,4 +79,6 @@ function! Getrange(type)
   :<c-r>=com<cr>
 endfunction
 
+File '~/.bashrc', 'bashrc'
+
 nmap <silent> <F4> :set opfunc=Getrange<CR>g@

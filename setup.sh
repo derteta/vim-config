@@ -5,4 +5,4 @@ echo "source ~/.vim/.vimrc" > ~/.vimrc
 echo "source ~/.vim/.gvimrc" > ~/.gvimrc
 
 # Compile plugins
-(cd ~/.vim/bundle/Command-T/ruby/command-t && ruby extconf.rb && make)
+(cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make)

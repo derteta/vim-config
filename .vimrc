@@ -48,7 +48,7 @@ set listchars=tab:>-,trail:#,eol:$
 
 
 " Shell
-set shell=bash\ -i
+set shellcmdflag=-ci
 
 
 " Custom mappings

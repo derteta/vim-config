@@ -22,3 +22,6 @@
 [submodule "bundle/asyncrun.vim"]
 	path = bundle/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim.git
+[submodule "bundle/simplenote.vim"]
+	path = bundle/simplenote.vim
+	url = https://github.com/mrtazz/simplenote.vim.git

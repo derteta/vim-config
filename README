@@ -9,6 +9,8 @@ Contents
   - lightline - https://github.com/itchyny/lightline.vim
   - asyncrun.vim - https://github.com/skywind3000/asyncrun.vim.git
   - simplenote.vim - https://github.com/mrtazz/simplenote.vim
+  - vim-picker - https://github.com/srstevenson/vim-picker
+
 
 
 Installation

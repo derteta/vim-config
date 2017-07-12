@@ -1,7 +1,6 @@
 Contents
 
   My personal vim configuration. The following plugins are included (as submodules):
-  - command-t - https://github.com/wincent/command-t.git
   - Fugitive - https://github.com/tpope/vim-fugitive
   - pyflakes - https://github.com/vim-scripts/pyflakes.vim
   - fswitch - https://github.com/vim-scripts/FSwitch

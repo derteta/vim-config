@@ -1,11 +1,9 @@
 " Plugin settings
 
-let g:CommandTMaxFiles=100000
-let g:CommandTMaxCachedDirectories=0
-
 let g:SimplenoteUsername="derteta@gmx.de"
 
-nmap <leader><S-t> :CommandTBuffer<CR>
+nmap <leader>t :PickerEdit<CR>
+nmap <leader><S-t> :PickerBuffer<CR>
 nmap <leader>l :FSHere<CR>
 nmap <leader><S-l> :split<CR> :FSBelow<CR>
 nmap <leader>p :Welcome<CR>

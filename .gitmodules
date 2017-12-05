@@ -16,12 +16,12 @@
 [submodule "bundle/lightline.vim"]
 	path = bundle/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/command-t.git
 [submodule "bundle/asyncrun.vim"]
 	path = bundle/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim.git
 [submodule "bundle/simplenote.vim"]
 	path = bundle/simplenote.vim
 	url = https://github.com/mrtazz/simplenote.vim.git
+[submodule "bundle/vim-picker"]
+	path = bundle/vim-picker
+	url = https://github.com/srstevenson/vim-picker

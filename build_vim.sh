@@ -12,6 +12,7 @@ if [[ "$(basename `git rev-parse --show-toplevel`)" != "vim" ]]; then
   exit 1
 fi
 
+git pull
 
 echo "#### Configuring ####"
 if [ -d /usr/lib/python2.7/config ]; then

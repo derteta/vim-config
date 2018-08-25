@@ -7,6 +7,7 @@ set nu
 set cursorline
 set ruler
 set visualbell
+let &statusline = '[%{toupper(mode())}] %(%F%m%r%) %= %(%c,%l %p%%%)'
 
 
 " Tabs and indentation

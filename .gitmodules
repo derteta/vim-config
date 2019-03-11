@@ -9,9 +9,6 @@
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
 	url = https://github.com/amiorin/vim-project.git
-[submodule "bundle/simplenote.vim"]
-	path = bundle/simplenote.vim
-	url = https://github.com/mrtazz/simplenote.vim.git
 [submodule "bundle/vim-picker"]
 	path = bundle/vim-picker
 	url = https://github.com/srstevenson/vim-picker

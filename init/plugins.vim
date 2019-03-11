@@ -1,7 +1,5 @@
 " Plugin settings
 
-let g:SimplenoteUsername="derteta@gmx.de"
-
 nmap <leader>t :PickerEdit<CR>
 nmap <leader><S-t> :PickerBuffer<CR>
 nmap <leader>l :FSHere<CR>

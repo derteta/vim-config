@@ -21,6 +21,7 @@ set cino=(0
 
 
 " Files and paths
+set encoding=utf-8
 set autoread
 set noswapfile
 silent! call pathogen#runtime_append_all_bundles()

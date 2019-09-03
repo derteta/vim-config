@@ -12,7 +12,9 @@ if [[ "$(basename `git rev-parse --show-toplevel`)" != "vim" ]]; then
   exit 1
 fi
 
-git pull
+echo "#### Fetching the latest Vim code ####"
+
+git pull > /dev/null
 
 echo "#### Configuring ####"
 
@@ -38,10 +40,10 @@ fi
   --enable-python3interp=yes \
   --with-python3-command=python3 \
   --with-python3-config-dir=$py3_config_path \
-  --prefix=/usr/local
+  --prefix=/usr/local > /dev/null
 
 echo "#### Building ####"
-make
+make > /dev/null
 
 echo "#### Installing ####"
-sudo make install
+sudo make install > /dev/null

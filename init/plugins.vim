@@ -1,7 +1,7 @@
 " Plugin settings
 
-nmap <leader>t :PickerEdit<CR>
-nmap <leader><S-t> :PickerBuffer<CR>
+nmap <leader>t :Files<CR>
+nmap <leader><S-t> :Buffers<CR>
 nmap <leader>l :FSHere<CR>
 nmap <leader><S-l> :split<CR> :FSBelow<CR>
 nmap <leader>p :Welcome<CR>

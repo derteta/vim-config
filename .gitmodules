@@ -12,3 +12,9 @@
 [submodule "bundle/vim-picker"]
 	path = bundle/vim-picker
 	url = https://github.com/srstevenson/vim-picker
+[submodule "bundle/fzf.vim"]
+	path = bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = https://github.com/junegunn/fzf.git

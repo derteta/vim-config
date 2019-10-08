@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-if [[ $# < 1 ]]; then
+if [ $# -lt 1 ]; then
   echo "Please specify a path to the vim source code!"
   exit 1
 fi
 
 cd $1
 
-if [[ "$(basename `git rev-parse --show-toplevel`)" != "vim" ]]; then
+if [ "$(basename `git rev-parse --show-toplevel`)" != "vim" ]; then
   echo "Please specify a path to the vim source code!"
   exit 1
 fi

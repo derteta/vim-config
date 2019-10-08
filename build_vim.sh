@@ -26,7 +26,7 @@ else
 fi
 
 # Python3 (TODO: dynamically find version)
-py3_version=3.5
+py3_version=3.7
 if [ -d /Library/Frameworks/Python.framework/Versions/$py3_version/lib/python$py3_version/config-${py3_version}m ]; then
   py3_config_path=/Library/Frameworks/Python.framework/Versions/$py3_version/lib/python$py3_version/config-${py3_version}m
 else

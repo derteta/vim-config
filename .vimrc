@@ -68,11 +68,6 @@ nmap <leader>/ :nohlsearch<CR>
 nmap <leader>r :\.,\.+$v:count1
 nmap <leader><S-r> :'<,'>s/
 
-set rtp+=~/.vim/bundle/vim-project/
-call project#rc("~/")
-
-File '~/.vim/.vimrc', 'vimrc'
- 
 runtime! init/**.vim
 
 function! Getrange(type)
@@ -81,7 +76,5 @@ function! Getrange(type)
   let com = string(low) . "," . string(high) . "s/"
   :<c-r>=com<cr>
 endfunction
-
-File '~/.bashrc', 'bashrc'
 
 nmap <silent> <F4> :set opfunc=Getrange<CR>g@

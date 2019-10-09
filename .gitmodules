@@ -6,9 +6,6 @@
 	path = bundle/fswitch
 	url = https://github.com/vim-scripts/FSwitch.git
   ignore = dirty
-[submodule "bundle/vim-project"]
-	path = bundle/vim-project
-	url = https://github.com/amiorin/vim-project.git
 [submodule "bundle/vim-picker"]
 	path = bundle/vim-picker
 	url = https://github.com/srstevenson/vim-picker

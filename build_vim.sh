@@ -20,9 +20,14 @@ echo "#### Configuring ####"
 
 # Python2
 if [ -d /usr/lib/python2.7/config ]; then
-  python_config_path=/usr/lib/python2.7/config
+  python_path_arg="--with-python-config-dir=/usr/lib/python2.7/config"
+  python_interp_arg="yes"
+elif [ -d /usr/lib/python2.7/config-x86_64-linux-gnu ]; then
+  python_path_arg="--with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu"
+  python_interp_arg="yes"
 else
-  python_config_path=/usr/lib/python2.7/config-x86_64-linux-gnu/
+  python_path_arg=""
+  python_interp_arg="no"
 fi
 
 # Python3 (TODO: dynamically find version)
@@ -35,8 +40,8 @@ fi
 
 ./configure \
   --with-features=huge \
-  --enable-pythoninterp=yes \
-  --with-python-config-dir=$python_config_path \
+  --enable-pythoninterp=$python_interp_arg \
+  $python_path_arg \
   --enable-python3interp=yes \
   --with-python3-command=python3 \
   --with-python3-config-dir=$py3_config_path \

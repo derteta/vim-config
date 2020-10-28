@@ -2,12 +2,8 @@ Contents
 
   My personal vim configuration. The following plugins are included (as submodules):
   - Fugitive - https://github.com/tpope/vim-fugitive
-  - pyflakes - https://github.com/vim-scripts/pyflakes.vim
   - fswitch - https://github.com/vim-scripts/FSwitch
-  - vim-project - https://github.com/amiorin/vim-project
-  - lightline - https://github.com/itchyny/lightline.vim
-  - asyncrun.vim - https://github.com/skywind3000/asyncrun.vim.git
-  - simplenote.vim - https://github.com/mrtazz/simplenote.vim
+  - fzf.vim - https://github.com/ruanyl/vim-gh-line.git
   - vim-gh-line - https://github.com/ruanyl/vim-gh-line.git
   - vim-picker - https://github.com/srstevenson/vim-picker
 

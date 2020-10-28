@@ -15,3 +15,6 @@
 [submodule "bundle/fzf"]
 	path = bundle/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "pack/version-control/opt/vim-gh-line"]
+	path = pack/version-control/opt/vim-gh-line
+	url = https://github.com/ruanyl/vim-gh-line.git

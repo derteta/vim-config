@@ -2,8 +2,8 @@
 colorscheme desert256
 highlight cursorline guibg=#111111
 set nocompatible
-set rnu
-set nu
+set number
+set relativenumber
 set cursorline
 set ruler
 set visualbell
@@ -79,3 +79,15 @@ function! Getrange(type)
 endfunction
 
 nmap <silent> <F4> :set opfunc=Getrange<CR>g@
+
+function! ToggleNumbers()
+  if &number
+    set nonumber
+    set norelativenumber
+  else
+    set number
+    set relativenumber
+  endif
+endfunction
+
+nmap <silent> <leader>n :call ToggleNumbers()<CR>

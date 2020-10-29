@@ -3,17 +3,17 @@
 	url = http://github.com/tpope/vim-fugitive.git
   ignore = dirty
 [submodule "bundle/fswitch"]
-	path = bundle/fswitch
+	path = pack/navigation/start/fswitch
 	url = https://github.com/vim-scripts/FSwitch.git
   ignore = dirty
 [submodule "bundle/vim-picker"]
 	path = bundle/vim-picker
 	url = https://github.com/srstevenson/vim-picker
 [submodule "bundle/fzf.vim"]
-	path = bundle/fzf.vim
+	path = pack/navigation/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "bundle/fzf"]
-	path = bundle/fzf
+	path = pack/navigation/start/fzf
 	url = https://github.com/junegunn/fzf.git
 [submodule "pack/version-control/opt/vim-gh-line"]
 	path = pack/version-control/opt/vim-gh-line

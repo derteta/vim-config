@@ -25,8 +25,6 @@ set cino=(0
 set encoding=utf-8
 set autoread
 set noswapfile
-silent! call pathogen#runtime_append_all_bundles()
-silent! call pathogen#helptags()
 syntax on
 filetype on
 filetype plugin on

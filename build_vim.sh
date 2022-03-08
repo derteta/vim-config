@@ -38,6 +38,8 @@ else
   py3_config_path=/usr/lib/python$py3_version/config-${py3_version}m-x86_64-linux-gnu
 fi
 
+make clean > /dev/null
+
 ./configure \
   --with-features=huge \
   --enable-pythoninterp=$python_interp_arg \
